@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Admin',
             'email' => 'admin',
             'password' => Hash::make('123456'),
-            'perfil' => 1000
+            'profile_id' => 1
         ]);
     }
 }

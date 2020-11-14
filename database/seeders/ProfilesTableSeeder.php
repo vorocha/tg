@@ -13,6 +13,17 @@ class ProfilesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('profiles')->insert([
+            'description' => 'Admin'
+        ]);
+        DB::table('profiles')->insert([
+            'description' => 'Avaliador'
+        ]);
+        DB::table('profiles')->insert([
+            'description' => 'Empresa'
+        ]);
+        DB::table('profiles')->insert([
+            'description' => 'Usuário'
+        ]);
     }
 }
